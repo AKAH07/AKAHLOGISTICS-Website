@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+/* Base */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #fff;
+    color: #222;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 500;
+}
+
+/* Main Container */
+main {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+/* Logo */
+.logo {
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Links */
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+a:hover {
+    color: #7a00cc;
+}
+
+/* Forms */
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1em;
+}
+textarea { resize: vertical; }
+
+button, input[type="submit"], .btn-custom {
+    background-color: #8a2be2;
+    color: #fff !important;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover, input[type="submit"]:hover, .btn-custom:hover {
+    background-color: #6a1bb7;
+}
+
+/* Footer */
+footer {
+    border-top: 3px solid #8a2be2;
+    text-align: center;
+    padding: 15px 0;
+    background-color: #111;
+    color: #fff;
+}
+footer a { color: #fff; }
+footer i { color: red; }
+
+/* Responsive Text */
+@media (max-width: 1024px) {
+    h1 { font-size: 2.2em; }
+}
+@media (max-width: 768px) {
+    h1 { font-size: 1.8em; }
+}
